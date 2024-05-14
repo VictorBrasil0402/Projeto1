@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style>
+
+    body{
+
+    background-color: #4CAF50;
+
+    }
+
+    .container{
+
+        width: 450px;
+
+        height: 260px;
+
+        border: 1px solid #f2f2f2;
+    
+        border-radius:5px;
+    
+        background-color:#ffffff;
+
+        position: absolute;
+    
+        top: 50%;
+    
+        left: 50%;
+    
+        transform: translate(-50%, -50%);
+
+
+    }
+
+    .titulo{
+
+        text-align: center;
+
+    }
+
+    .font{
+
+        font-family: Arial, Helvetica, sans-serif;
+
+        font-size: 30px;
+
+        color:#000000;
+
+        font-weight: 600;
+    }
+    
+    .font_label{
+
+        font-family: "Gill Sans", sans-serif;
+
+        font-size: 16px;
+
+        color:#000000;
+
+        font-weight: bold;
+
+    }
+
+    .margin{
+
+        margin-left: 50px;
+
+    }
+
+    .input_matricula{
+    
+        width: 345px;
+
+        height: 28px;
+
+        border:1px solid;
+
+        border-color: #9a9a9a;
+
+    }
+
+    .submit{
+
+    width: 352px;
+
+    height: 35px;
+
+    font-family: "Gill Sans", sans-serif;
+
+    font-size: 15px;
+
+    border:1px solid;
+
+    border-color: #4CAF50;
+
+    background: #4CAF50;
+
+    color: white;
+
+    cursor:pointer;
+
+
+
+    }
+
+    </style>
+
+
+</head>
+
+<body>
+
+<form name = "acesso" action = "processa1.php" method = "post" autocomplete="off">
+
+<div class = "container">
+
+<h1 class = "titulo font">Acessar</h1>
+
+<br>
+<br>
+
+<label class = "margin font_label">Matrícula:</label>
+
+<br>
+
+<input type = "number" name = "matricula" class = "margin input_matricula">
+
+<br>
+<br>
+<br>
+
+<input type = "submit" name = "enviar" class = "margin submit">
+
+
+
+
+
+</div>
+
+
+
+    
+</body>
+
+
+</html>

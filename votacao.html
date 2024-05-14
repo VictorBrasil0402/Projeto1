@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+
+        body{
+
+            background-color: #4CAF50;
+        
+        }
+
+        .container2{
+
+            width: 520px;
+
+            height: 465px;
+
+            border: 1px solid #f2f2f2;
+    
+            border-radius:5px;
+
+            background-color:#ffffff;
+
+            position: absolute;
+    
+            top: 50%;
+    
+            left: 50%;
+    
+            transform: translate(-50%, -50%);
+
+        }
+
+        .titulo2{
+
+            text-align: center;
+
+        }
+
+        .font2{
+
+            font-family: Arial, Helvetica, sans-serif;
+
+            font-size: 30px;
+
+            color:#000000;
+
+            font-weight: 600;
+        }
+
+
+        .font_label2{
+
+            font-family: "Gill Sans", sans-serif;
+
+            font-size: 16px;
+
+            color:#000000;
+
+            font-weight: bold;
+
+
+        }
+
+        .margin2{
+
+            margin-left: 50px;
+
+        }
+
+        .input_codigo{
+
+            width: 410px;
+
+            height: 28px;
+
+            border:1px solid;
+
+            border-color: #9a9a9a;
+        }
+
+        .input_nome{
+
+            width: 410px;
+
+            height: 28px;
+
+            border:1px solid;
+
+            border-color: #9a9a9a;
+
+        }
+
+        .input_lider{
+
+            width: 410px;
+
+            height: 28px;
+
+            border:1px solid;
+
+            border-color: #9a9a9a;
+
+        }
+
+        .input_sublider{
+
+            width: 410px;
+
+            height: 28px;
+
+            border:1px solid;
+
+            border-color: #9a9a9a;
+        }
+        
+        .submit2{
+
+            width: 416px;
+
+            height: 35px;
+
+            font-family: "Gill Sans", sans-serif;
+
+            font-size: 15px;
+
+            border:1px solid;
+
+            border-color: #4CAF50;
+
+            background: #4CAF50;
+
+            color: white;
+
+            cursor:pointer;
+
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+<form name = "votacao" action="processa2.php" method="post" autocomplete="off">
+
+<div class = "container2">
+
+
+<h1 class = "titulo2 font2">Votação</h1>
+
+<br>
+<br>
+
+<label class = "margin2 font_label2"> Código da Chapa:</label>
+
+<br>
+
+<input type = "number" name = "codigo_chapa" class= "margin2 input_codigo">
+
+<br>
+<br>
+
+<label class = "margin2 font_label2">Nome da Chapa:</label>
+
+<br>
+
+<input type = "text" name = "nome_chapa" class = "margin2 input_nome">
+
+<br>
+<br>
+
+<label class = "margin2 font_label2">Líder:</label>
+
+<br>
+
+<input type = "text" name = "lider_chapa" class = "margin2 input_lider">
+
+<br>
+<br>
+
+<label class = "margin2 font_label2">Sub-Líder:</label>
+
+<br>
+
+<input type = "text" name = "sublider_chapa" class = "margin2 input_sublider">
+
+<br>
+<br>
+<br>
+
+<input type = "submit" name = "enviar2" class = "margin2 submit2">
+
+
+<div>
+
+
+</form>
